@@ -1,0 +1,166 @@
+﻿img {
+    width: 412px;
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 9%;
+    margin-left: 23%;
+    display: inline-block;
+}
+
+#imgSec {
+    background-color: white;
+    width: 50%;
+    height: 697px;
+}
+
+#Sec2 {
+    background-color: #400968;
+    height: auto;
+    width: 50%;
+}
+
+.contain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#headerText {
+    font-weight: bold;
+    text-align: center;
+    font-family: Sylfaen;
+    color: white;
+    margin-top: 150px
+}
+
+.ii {
+    margin-left: 180px;
+    color: white;
+    font-size: 27px;
+    display: inline-block;
+}
+
+label2 {
+    margin-left: 310px;
+    color: red;
+}
+
+#LogIn {
+    background-color: #86335b;
+    color: white;
+    width: 200px;
+    margin-left: 310px;
+    height: 40px;
+    border-radius: 25px;
+    border: solid 2px #86335b;
+}
+
+.textbox {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border: solid 2px white;
+    padding-left: 20px;
+}
+
+#foote {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+    #foote img {
+        width: auto;
+        height: 30px;
+        margin: 10px;
+    }
+
+@media only screen and (min-device-width:481px)and (max-device-width:768px) {
+    .contain {
+        flex-direction: column;
+    }
+
+    #Sec2 {
+        width: 100%;
+        margin-top: 290px;
+    }
+
+    img {
+        height: 400px;
+        margin-left: 22%;
+    }
+
+    #imgSec {
+        width: 100%;
+        height: 172px;
+    }
+
+    .textbox {
+        width: 250px;
+        height: 30px;
+    }
+
+    #headerText {
+        margin-top: 25px;
+    }
+
+    #LogIn {
+        width: 158px;
+        margin-left: 401px;
+    }
+
+    .ii {
+        margin-left: 320px;
+        font-size: 24px;
+    }
+    #img {
+        margin-left: 30%;
+       
+    }
+}
+
+@media only screen and (min-device-width:0)and (max-device-width:480px) {
+    .contain {
+        flex-direction: column;
+    }
+
+    #LogIn {
+        width: 159px;
+        margin-left: 390px;
+        height: 52px;
+    }
+
+    #Sec2 {
+        width: 100%;
+        border-radius: 27px;
+        border: solid 40px white;
+    }
+
+    #imgSec {
+        width: 100%;
+        height: 851px;
+    }
+
+    .textbox {
+        width: 329px;
+        height: 58px;
+        border-radius: 25px;
+        border: solid 2px white;
+    }
+
+    #headerText {
+        margin-top: 20px;
+        font-size: 61px;
+    }
+
+    .ii {
+        font-size: 37px;
+        margin-left: 247px;
+    }
+    #img {
+        margin-left: 37%;
+        margin-top:17%;
+    }
+}
